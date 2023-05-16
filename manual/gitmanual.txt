@@ -1,0 +1,56 @@
+! Hola Nico !
+
+PARA SALIR DE MENUS PRESIONA "q"
+
+% Para windows usar terminal Git BASH
+
+git init
+
+Instrucciones para laborar con git
+git - -version
+git config --global user. name "Nicolas Schurmann"
+git config --global user. email nicolas@gmail.com
+git config --global core.editor "code --wait"
+git config --global -e
+git config --global
+git config -h
+git status
+
+
+git add archibo1.txt o [.txt "solo los txt"] o [. "todos"]
+git add archibo1.txt archivo2.txt "varios"
+git commit -m "agrege una linea ultima"
+git rm archivoxx.txt "para borrar y add"
+git restore --staged archivoxxx.txt "restaurar"
+%
+git add archivo1.txt archibo1.txt [subir el renombrado por el anterior]
+Podemos hacer esto ultimo con git mv archivo1.txt archibo1.txtx
+
+% Vamos a simplifaicar estatus
+git status -s "Muestra con letras al inicio" 
+
+	M(rojo)= modificado, M(verde)=modificado stage
+	A(verde)=agregado stage(listo para comprometer)
+
+git diff "mustra el texto de lo que agregamos"
+git diff --staged
+git log (historial)
+git log --oneline (historila con referencia y simplificado)
+
+% Ramas o branch
+git branch "en que rama estoy"
+git checkout -b features/nombre de la funcionalidad
+git checkout -b SS4515
+git checkout -b ramab
+git checkout main "cambio de rama"
+git merge ramab "traer cambios de la rama ramab a la main"
+
+% Subir a la nube
+pasos
+1.-add 
+2.-commit
+3.- push con (git push)
+
+Para crear otra rama y subir 
+1.- Creamos la rama con git checkout -b ramaC
+2.- git push -u origin ramaC 
