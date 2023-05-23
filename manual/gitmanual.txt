@@ -57,9 +57,8 @@ Para crear otra rama y subir
 
 Para sacar de la carpeta para colaborar debemos usar:
 
-
 git clone (aca se pone el URL que sacas del boton verde de github)
 
-Claro está que debes estar en la ubicacion de donde quieres estar.
+Claro está que debes estar en la ubicacion de donde quieres que esté la carpeta.
 
 
